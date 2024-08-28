@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon02.png">
+    <link rel="stylesheet" href="styless.css">
+    <title>Encriptador de Texto - Alura Latam</title>
+</head>
+
+<body>
+    <!--? Comienza el ENCABEZADO de la Pagina -->
+    <header>
+        <a href="index.html">
+            <img src="image/alura_logo02.png" alt="Logo de Alura/pagina" class="logo">
+        </a>
+    </header>
+
+    <!--? Comienza la seccion PRINCIPAL de la Pagina -->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptarText" placeholder="  Ingrese aqui su Texto."></textarea>
+
+            <div class="avisoEncriptador">
+                <img src="image/alerta.svg" alt="Imagen de aviso" class="imgAviso">
+                <p class="textoAlerta">
+                    Solo palabras en minusculas, y sin acentos.
+                </p>
+            </div>
+
+            <div class="encriptadorContenedor">
+                <button type="submit" class="btnEncriptar">ENCRIPTAR</button>
+                <button type="submit" class="btnDesencriptar">DESENCRIPTAR</button>
+            </div>
+        </section>
+
+        <section class="tarjetaTexto">
+            <div class="tarjetaContenedor">
+                <img src="image/encriptador_detective.jpg" alt="Imagen de Detective encriptador" class="imgDetective">
+                <p class="primerTexto">No se encontro ningun mensaje</p>
+                <p class="segundoTexto">Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+            <textarea class="evaluar" type="mensaje" readonly></textarea>
+            <button class="btnCopiar" type="submit ">COPIAR</button>
+        </section>
+    </main>
+
+    <!--? Comienza la seccion FOOTER de la Pagina -->
+    <footer>
+        <p class="copyright">&copy; Desarrollado por || Kiamond Design || 2024 - Grupo 6 ONE Oracle - Alura Latam</p>
+        <a href="https://www.linkedin.com/in/juanjo-rodriguez-b19113251">
+            <img src="image/linkedin.svg" alt="Logo de Linkedin" class="linked">
+        </a>
+        <a href="https://github.com/JuanJoDiamond">
+            <img src="image/github.svg" alt="Logo de GitHub" class="gitHub">
+        </a>
+    </footer>
+    
+    <!--? asocio el archivo JS a la Pagina -->
+    <script src="./encriptador.js"></script>
+
+</body>
+
+</html>
