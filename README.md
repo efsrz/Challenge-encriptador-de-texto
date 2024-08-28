@@ -60,6 +60,3 @@ _El equipo de Alura Latam como proyecto y Juan Rodriguez_
 * **Jeanmarie Quijada** - *Trabajo Inicial*
 * **Juan Rodriguez** - *Desarrollo JavaScript*
 
-## Link Web Site 📄
-
-https://juanjodiamond.github.io/Alura-Challenge-encriptador-texto/ 
